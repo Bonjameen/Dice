@@ -4,16 +4,44 @@ color: #EEEEEE;
 background-color: #393E46;
 color: #4ECCA3;*/
 
+/* Elements */
+
 body {
+  font-family: 'Indie Flower', cursive;
   text-align: center;
   background-color: #393E46;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+img {
+  margin: 25px 0;
 }
 
 /* Header Section */
 
 #header {
   font-family: 'Lobster', cursive;
-  font-size: 5rem;
   text-shadow: 5px 0 #232931;
+  margin: 75px auto 100px;
   color: #4ECCA3;
+}
+
+/* Game Section */
+
+#game {
+  color: #4ECCA3;
+}
+
+.player {
+  display: inline-block;
+  margin: 0 20px 50px;
+}
+
+/* Footer Section */
+
+#footer {
+  color: #EEEEEE;
 }
